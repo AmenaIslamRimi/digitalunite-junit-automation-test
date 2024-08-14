@@ -13,12 +13,16 @@ This repository contains an automated test suite for the 'practice-webform-learn
 * Adding dependencies
     - For Gradle: // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
 implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.23.1'
-    - For Maven: <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-                        <dependency>
-                            <groupId>org.seleniumhq.selenium</groupId>
-                            <artifactId>selenium-java</artifactId>
-                            <version>4.23.1</version>
-                        </dependency>
+    - For Maven: add the following dependency to your `pom.xml` file:
+
+```xml
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.23.1</version>
+</dependency>
+```
 
 * JUnit 5: The project is configured to use JUnit 5, which is included as a dependency.
 
