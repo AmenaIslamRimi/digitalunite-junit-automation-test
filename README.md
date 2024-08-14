@@ -43,10 +43,10 @@ plaintext
 ├── build.gradle (or pom.xml)
 └── README.md
 
-src/main/java: Contains the source code of the project. <br />
-src/test/java: Contains the JUnit test cases.<br />
-.gitignore: Contains .idea, .gradle, build, and gradle file<br />
-pom.xml/build.gradle: Build file that manages dependencies and project build lifecycle.
+* src/main/java: Contains the source code of the project. <br />
+* src/test/java: Contains the JUnit test cases.<br />
+* .gitignore: Contains .idea, .gradle, build, and gradle file<br />
+* pom.xml/build.gradle: Build file that manages dependencies and project build lifecycle.
 
 # Getting Started
 ## Cloning the Repository
