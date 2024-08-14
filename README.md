@@ -11,11 +11,9 @@ This repository contains an automated test suite for the 'practice-webform-learn
 * Java: JDK 11 or higher
 * Maven/Gradle: Ensure Maven or Gradle is installed for dependency management.
 * Adding dependencies
-<br />
-- For Gradle: // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    - For Gradle: // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
 implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.23.1'
-<br />
-- For Maven: <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+    - For Maven: <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
