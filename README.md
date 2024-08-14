@@ -56,14 +56,10 @@ git clone https://github.com/yourusername/your-repo-name.git <br />
 cd your-repo-name
 
 ## Running the Tests
-### Using Maven
-
-bash<br />
+### Using Maven (in bash)
 mvn test
 
-### Using Gradle
-
-bash<br />
+### Using Gradle (in bash)
 gradle test
 
 # Test Results
