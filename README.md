@@ -1,13 +1,13 @@
 # digitalunite-junit-automation-test
-#Overview
+# Overview
 This repository contains an automated test suite for 'practice-webform-learners automation test' using JUnit, a widely-used testing framework for Java. The test suite is designed to ensure the correctness and reliability of the 'practice-webform-learners automation test' codebase by automating unit tests.
 
-#Features
+# Features
 * JUnit 5: Leverages the latest features and improvements in JUnit 5.
 * Maven/Gradle Integration: Seamlessly integrated with Maven/Gradle for easy build and dependency management.
 * Comprehensive Test Coverage: Includes unit tests for key components and functions of the project.
 
-#Prerequisites
+# Prerequisites
 Java: JDK 11 or higher
 Maven/Gradle: Ensure Maven or Gradle is installed for dependency management.
 * Adding dependenies
@@ -22,7 +22,7 @@ For Maven: <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selen
 
 * JUnit 5: The project is configured to use JUnit 5, which is included as a dependency.
 
-#Project Structure
+# Project Structure
 
 plaintext
 
@@ -44,25 +44,25 @@ src/test/java: Contains the JUnit test cases.
 .gitignore: Contains .idea, .gradle, build and gradle file
 pom.xml/build.gradle: Build file that manages dependencies and project build lifecycle.
 
-#Getting Started
-##Cloning the Repository
+# Getting Started
+## Cloning the Repository
 
-###bash
+### bash
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 
-##Running the Tests
-###Using Maven
+## Running the Tests
+### Using Maven
 
 bash
 mvn test
 
-###Using Gradle
+### Using Gradle
 
 bash
 gradle test
 
-#Test Results
+# Test Results
 Test results will be output to the console and can also be found in the target/surefire-reports (Maven) or build/reports/tests (Gradle) directory.
 
-#Screenshot of Report
+# Screenshot of Report
