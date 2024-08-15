@@ -66,3 +66,4 @@ gradle test
 Test results will be output to the console and can also be found in the target/surefire-reports (Maven) or build/reports/tests (Gradle) directory.
 
 # Screenshot of Report
+![junit test summary report](https://i.postimg.cc/rFSf68jx/junit-test-summary-report.png)
