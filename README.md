@@ -12,7 +12,7 @@ This repository contains an automated test suite for the 'practice-webform-learn
 * Maven/Gradle: Ensure Maven or Gradle is installed for dependency management.
 * Adding dependencies
     - For Gradle: // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
-implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.23.1'
+implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.23.0'
     - For Maven: add the following dependency to your `pom.xml` file:
 
 ```xml
@@ -20,7 +20,7 @@ implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version:
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.23.1</version>
+    <version>4.23.0</version>
 </dependency>
 ```
 
